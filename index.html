@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jennifer Kamara | Software Engineering Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+    <nav class="nav">
+        <div class="logo">JK</div>
+        <button id="theme-toggle" aria-label="Toggle dark mode">🌓</button>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <!--- <li><a href="#experience">Experience</a></li> --->
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <!-- HERO -->
+    <section id="hero" class="section hero">
+        <div class="hero-content">
+            <h1>Hi, I’m Jennifer 👋</h1>
+            <p class="hero-tagline">
+                Software Engineering student who loves building real-world projects.
+            </p>
+            <a href="#projects" class="btn">View my projects</a>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-group">
+                <h3>Languages</h3>
+                <p>Java, JavaScript, PHP, Python, SQL, HTML, CSS</p>
+            </div>
+            <div class="skill-group">
+                <h3>Web & Frameworks</h3>
+                <p>JavaFX, MVC, REST APIs, Node basics</p>
+            </div>
+            <div class="skill-group">
+                <h3>Tools & Practices</h3>
+                <p>Git, Linux, MySQL, SQLite, OOP, Agile</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+        <div class="section-header">
+            <h2>Projects</h2>
+            <div id="project-filters" class="filters"></div>
+        </div>
+        <div id="projects-grid" class="projects-grid">
+            <!-- injected by JS -->
+        </div>
+    </section>
+
+    <!-- EXPERIENCE
+    <section id="experience" class="section">
+        <h2>Experience & Education</h2>
+        <ul class="timeline">
+            <li>
+                <h3>BSc (Hons) Software Engineering – University of Salford</h3>
+                <p>Year 2 • Modules: Networking & Security, Client-Server Systems, Data Structures & Algorithms</p>
+            </li>
+            <li>
+                <h3>Software Volunteer – Embassy of Sierra Leone in Morocco</h3>
+                <p>Worked on software-related tasks, improving internal workflows and data handling.</p>
+            </li>
+        </ul>
+    </section>
+    -->
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>Interested in placements, internships, or collaborations?</p>
+        <ul class="contact-list">
+            <li><a href="mailto:nyalimajennifer@gmail.com">nyalimajennifer@gmail.com</a></li>
+            <li><a href="https://github.com/Jennifer-dev-ux" target="_blank">GitHub</a></li>
+            <li><a href="www.linkedin.com/in/jennifer-en-kamara" target="_blank">LinkedIn</a></li>
+        </ul>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <p>© <span id="year"></span> Jennifer Kamara</p>
+</footer>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
+
